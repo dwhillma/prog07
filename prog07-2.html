@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="app2">
+<head>
+    <title>AngularJS Tutorial 2</title>
+<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/1C015193-8FCF-5B4B-9364-2E005536D739/main.js" charset="UTF-8"></script></head>
+<body>
+    <div class="container">
+        <!-- You can create multiple views that use the same controller -->
+        <h4 ng-controller="ctrl1">First Random Number : {{randomNum1}}</h4>
+        <h4 ng-controller="ctrl1">Second Random Number : {{randomNum2}}</h4>
+
+        <!-- A page can contain multiple controllers -->
+        <h4 ng-controller="badCtrl">I'm feeling {{bad}}</h4>
+
+        <h4 ng-controller="goodCtrl">I'm feeling {{good}}</h4>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <script src="exam2.js"></script>
+    </div>
+
+</body>
+</html>
